@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="280" viewBox="0 0 440 280" role="img" aria-labelledby="title desc">
+  <title id="title">Parcel Hub promotional image</title>
+  <desc id="desc">Parcel Hub promotion with package route icon and workflow summary.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="440" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#12344D"/>
+      <stop offset="1" stop-color="#1F5F64"/>
+    </linearGradient>
+  </defs>
+  <rect width="440" height="280" fill="url(#bg)"/>
+  <rect x="30" y="30" width="90" height="90" rx="20" fill="#FFFFFF" opacity="0.96"/>
+  <path d="M52 76 75 63l23 13v25l-23 13-23-13z" fill="none" stroke="#17384B" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M52 76 75 89l23-13M75 89v25" fill="none" stroke="#17384B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M50 50c14 0 19 9 27 9h14" fill="none" stroke="#F0C15A" stroke-width="5" stroke-linecap="round"/>
+  <text x="150" y="78" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#FFFFFF">Parcel Hub</text>
+  <text x="150" y="116" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#D9E8EA">Tickets, email, returns</text>
+  <rect x="30" y="164" width="110" height="40" rx="20" fill="#EAF4F5" opacity="0.95"/>
+  <text x="85" y="189" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#17384B">Parse</text>
+  <rect x="160" y="164" width="110" height="40" rx="20" fill="#F0C15A"/>
+  <text x="215" y="189" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#17384B">Route</text>
+  <rect x="290" y="164" width="110" height="40" rx="20" fill="#E7F5EE"/>
+  <text x="345" y="189" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#17613E">Write back</text>
+  <text x="30" y="242" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#D9E8EA">Built for authorized internal shipping teams.</text>
+</svg>
