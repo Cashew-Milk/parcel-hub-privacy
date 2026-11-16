@@ -5,13 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Parcel Hub Privacy Policy</title>
   <meta name="description" content="Privacy policy for the Parcel Hub Chrome extension.">
-  <link rel="icon" href="../assets/parcel-hub-icon.svg" type="image/svg+xml">
+  <link rel="icon" href="../assets/parcel-hub-icon.png" type="image/png">
   <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
   <header class="site-header">
     <a class="brand" href="../" aria-label="Parcel Hub home">
-      <img src="../assets/parcel-hub-icon.svg" alt="" width="40" height="40">
+      <img src="../assets/parcel-hub-icon.png" alt="" width="40" height="40">
       <span>Parcel Hub</span>
     </a>
     <nav aria-label="Parcel Hub pages">
@@ -25,13 +25,17 @@
     <p class="lede">Parcel Hub is an internal workflow extension for authorized shipping teams. It processes shipment data only to support ticket parsing, email parsing, carrier handoff, label tracking, and writeback workflows.</p>
 
     <h2>Data Processed</h2>
-    <p>The extension may process shipment-related information from supported ticket pages, supported Outlook email pages, configured carrier pages, and internal host services. This can include names, company names, addresses, contact details, ticket identifiers, package details, customs descriptions, carrier selections, tracking numbers, and workflow diagnostics.</p>
+    <p>The extension may process shipment-related information from supported ticket pages, supported Outlook email pages, and configured carrier pages. This can include names, company names, addresses, contact details, ticket identifiers, package details, customs descriptions, carrier selections, tracking numbers, and workflow diagnostics for the active shipping workflow.</p>
 
     <h2>Storage</h2>
-    <p>Parcel Hub may store local settings, queue state, parsed shipment state, tracking state, writeback state, and diagnostics in Chrome extension storage or through a configured internal native host. Storage is used to continue the shipping workflow and recover active work.</p>
+    <p>Parcel Hub may store local settings, queue state, parsed shipment state, tracking state, writeback state, diagnostics, and prior-shipment lookup data in Chrome extension storage. Storage is used to continue the shipping workflow and recover active work.</p>
+
+    <h2>Local Prior-Shipment Database</h2>
+    <p>When prior-shipment import or lookup is used, Parcel Hub creates one hidden offscreen extension document to own its packaged SQLite WebAssembly worker and browser-local OPFS connection. This document processes prior-shipment data only for local import and lookup work, displays no user interface, accesses no websites, and loads or executes no remote code.</p>
 
     <h2>Sharing</h2>
-    <p>Parcel Hub sends shipment data only to configured systems needed for the workflow, such as authorized ERP or ticket systems, UPS CampusShip, FedEx, WorldShip, and internal Parcel Hub host services. Parcel Hub does not sell data, use data for advertising, or transfer data for unrelated purposes.</p>
+    <p>Parcel Hub sends shipment data only to configured systems needed for the workflow, such as authorized ERP or ticket systems, UPS CampusShip, FedEx, and World Courier. Parcel Hub does not sell data, use data for advertising, or transfer data for unrelated purposes.</p>
+    <p>The use of information received by Parcel Hub adheres to the Chrome Web Store User Data Policy, including the Limited Use requirements.</p>
 
     <h2>User Control</h2>
     <p>Users can stop extension processing by disabling or removing the extension in Chrome. Local extension storage can be cleared through Chrome extension settings. Organization-specific data access, retention, and support requests should be directed to the user's Parcel Hub administrator.</p>
